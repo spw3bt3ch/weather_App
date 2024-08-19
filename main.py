@@ -5,7 +5,7 @@ import streamlit as st
 import requests
 
 st.title("SMI WEATHER APPLICATION")
-user_option = st.text_input("Enter Location", placeholder="Your Present location")
+user_option = st.text_input("ENTER LOCATION", placeholder="Get Weather Info of Any Location")
 
 # api = "http://api.weatherapi.com/v1/current.json?key=e09fb8315197455dac1115933231611&q=London&aqi=yes"
 api2 = f"http://api.weatherapi.com/v1/current.json?key=e09fb8315197455dac1115933231611&q={user_option}&aqi=yes"
