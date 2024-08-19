@@ -27,7 +27,7 @@ Ultraviolet = getAPI["current"]["uv"]
 Amount_of_Carbon_In_Air = getAPI["current"]["air_quality"]["co"]
 
 if not user_option:
-    status()
+    st.warning("Please enter a location")
 elif user_option == user_location:
     st.info(f"""Weather Information below based on your present location\n
 Temperature: {Temperature}_c\n
